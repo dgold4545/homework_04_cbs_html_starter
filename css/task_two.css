@@ -18,8 +18,9 @@ body {
 }
 
 .articals-list__item {
-  padding: 6px;
-  flex-basis: calc(100% / 3 - 24px);
+  box-sizing: border-box;
+  padding: 12px;
+  flex-basis: calc(100% / 3 - 16px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
