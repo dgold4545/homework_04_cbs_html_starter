@@ -1,0 +1,26 @@
+.container {
+  background-color: slategrey;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* .social-media {
+  width: 200px;
+  height: 200px;
+  width: 400px;
+  height: 200px;
+  width: 200px;
+  height: 300px;
+} */
