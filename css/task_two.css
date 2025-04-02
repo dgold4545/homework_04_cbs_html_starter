@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.articals-list {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.articals-list__item {
+  padding: 6px;
+  flex-basis: calc(100% / 3 - 24px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articals-list__description {
+}
+
+.articals-list__link {
+  text-decoration: none;
+}

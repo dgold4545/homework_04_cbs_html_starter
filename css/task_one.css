@@ -1,0 +1,15 @@
+.task-one {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.task-one__title {
+  font-size: 36px;
+}
+
+.task-one__description {
+  max-width: 600px;
+}

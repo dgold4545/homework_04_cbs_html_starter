@@ -1,0 +1,22 @@
+.header-menu {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.header-menu__item {
+  list-style: none;
+}
+
+.header-menu__link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.header-menu__link.active-link {
+  background-color: dimgray;
+}
